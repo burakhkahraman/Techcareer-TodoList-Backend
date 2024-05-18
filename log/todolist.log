@@ -1493,3 +1493,46 @@ Caused by: org.postgresql.util.PSQLException: FATAL: password authentication fai
 2024-05-18T14:56:00.200+03:00  INFO 17524 --- [todolistbackend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-18T14:56:00.203+03:00  INFO 17524 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-05-18T14:56:00.206+03:00  INFO 17524 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-18T17:24:27.170+03:00  INFO 20356 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : Starting TodolistbackendApplication using Java 21 with PID 20356 (C:\Users\bkahr\OneDrive\Masaüstü\Projects\todolistbackend\target\classes started by bkahr in C:\Users\bkahr\OneDrive\Masaüstü\Projects\todolistbackend)
+2024-05-18T17:24:27.172+03:00  INFO 20356 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-05-18T17:24:28.075+03:00  INFO 20356 --- [todolistbackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-18T17:24:28.120+03:00  INFO 20356 --- [todolistbackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-05-18T17:24:28.719+03:00  INFO 20356 --- [todolistbackend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-18T17:24:28.730+03:00  INFO 20356 --- [todolistbackend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-18T17:24:28.730+03:00  INFO 20356 --- [todolistbackend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-18T17:24:28.795+03:00  INFO 20356 --- [todolistbackend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-18T17:24:28.795+03:00  INFO 20356 --- [todolistbackend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1576 ms
+2024-05-18T17:24:28.925+03:00 DEBUG 20356 --- [todolistbackend] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-05-18T17:24:29.351+03:00  INFO 20356 --- [todolistbackend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-18T17:24:29.379+03:00  INFO 20356 --- [todolistbackend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-18T17:24:29.562+03:00  INFO 20356 --- [todolistbackend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b0d85bd
+2024-05-18T17:24:29.574+03:00  INFO 20356 --- [todolistbackend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-18T17:24:30.454+03:00  INFO 20356 --- [todolistbackend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-18T17:24:30.803+03:00  WARN 20356 --- [todolistbackend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-18T17:24:30.905+03:00 DEBUG 20356 --- [todolistbackend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-05-18T17:24:30.999+03:00 DEBUG 20356 --- [todolistbackend] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-05-18T17:24:31.054+03:00 DEBUG 20356 --- [todolistbackend] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-18T17:24:31.088+03:00 DEBUG 20356 --- [todolistbackend] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-18T17:24:31.122+03:00  WARN 20356 --- [todolistbackend] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-18T17:24:31.571+03:00  INFO 20356 --- [todolistbackend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-05-18T17:24:31.646+03:00  INFO 20356 --- [todolistbackend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-18T17:24:31.657+03:00  INFO 20356 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : Started TodolistbackendApplication in 4.879 seconds (process running for 6.103)
+2024-05-18T17:24:32.095+03:00  INFO 20356 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-18T17:24:32.095+03:00  INFO 20356 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-18T17:24:32.096+03:00 DEBUG 20356 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-05-18T17:24:32.096+03:00 DEBUG 20356 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-05-18T17:24:32.096+03:00 DEBUG 20356 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-05-18T17:24:32.098+03:00 DEBUG 20356 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4beec7a1
+2024-05-18T17:24:32.099+03:00 DEBUG 20356 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@d0456ad
+2024-05-18T17:24:32.099+03:00 DEBUG 20356 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-18T17:24:32.100+03:00  INFO 20356 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-05-18T17:40:01.829+03:00 DEBUG 20356 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T17:40:01.837+03:00 DEBUG 20356 --- [todolistbackend] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T17:40:01.994+03:00 DEBUG 20356 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T17:40:01.996+03:00 DEBUG 20356 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=4, task=TEST, done=false), Todo(id=1, task=D (truncated)...]
+2024-05-18T17:40:02.022+03:00 DEBUG 20356 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T17:40:02.024+03:00 DEBUG 20356 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T17:40:02.025+03:00 DEBUG 20356 --- [todolistbackend] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T17:40:02.028+03:00 DEBUG 20356 --- [todolistbackend] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T17:40:02.029+03:00 DEBUG 20356 --- [todolistbackend] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=4, task=TEST, done=false), Todo(id=1, task=D (truncated)...]
+2024-05-18T17:40:02.029+03:00 DEBUG 20356 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
