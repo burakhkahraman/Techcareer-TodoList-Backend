@@ -3,15 +3,18 @@ package com.burak.todolistbackend.data.entity;
 import jakarta.persistence.*;
 import lombok.Data;
 
-@Data
 @Entity
-@Table(name = "to_do")
-public class ToDo {
+@Data
+public class Todo {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id", unique = true, nullable = false, insertable = true, updatable = false)
+    @Column(name = "id")
     private Long id;
-    private String task;
-    private boolean completed=Boolean.FALSE;
 
+    @Column(name = "task")
+    private String task;
+
+    @Column(name = "done")
+    private boolean done;
 }

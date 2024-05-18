@@ -858,3 +858,638 @@ Caused by: org.postgresql.util.PSQLException: FATAL: password authentication fai
 2024-05-18T01:08:38.252+03:00  INFO 16480 --- [todolistbackend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-18T01:08:38.254+03:00  INFO 16480 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-05-18T01:08:38.257+03:00  INFO 16480 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-18T13:07:48.379+03:00  INFO 10332 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : Starting TodolistbackendApplication using Java 21 with PID 10332 (C:\Users\bkahr\OneDrive\Masaüstü\Projects\todolistbackend\target\classes started by bkahr in C:\Users\bkahr\OneDrive\Masaüstü\Projects\todolistbackend)
+2024-05-18T13:07:48.382+03:00  INFO 10332 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-05-18T13:07:49.146+03:00  INFO 10332 --- [todolistbackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-18T13:07:49.185+03:00  INFO 10332 --- [todolistbackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2024-05-18T13:07:49.702+03:00  INFO 10332 --- [todolistbackend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-18T13:07:49.710+03:00  INFO 10332 --- [todolistbackend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-18T13:07:49.710+03:00  INFO 10332 --- [todolistbackend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-18T13:07:49.767+03:00  INFO 10332 --- [todolistbackend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-18T13:07:49.768+03:00  INFO 10332 --- [todolistbackend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1350 ms
+2024-05-18T13:07:49.890+03:00 DEBUG 10332 --- [todolistbackend] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-05-18T13:07:49.890+03:00 DEBUG 10332 --- [todolistbackend] [main] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2024-05-18T13:07:50.267+03:00  INFO 10332 --- [todolistbackend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-18T13:07:50.291+03:00  INFO 10332 --- [todolistbackend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-18T13:07:50.467+03:00  INFO 10332 --- [todolistbackend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@68360fb9
+2024-05-18T13:07:50.468+03:00  INFO 10332 --- [todolistbackend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-18T13:07:51.258+03:00  INFO 10332 --- [todolistbackend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-18T13:07:51.618+03:00  WARN 10332 --- [todolistbackend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-18T13:07:51.705+03:00 DEBUG 10332 --- [todolistbackend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2024-05-18T13:07:51.780+03:00 DEBUG 10332 --- [todolistbackend] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-05-18T13:07:51.811+03:00 DEBUG 10332 --- [todolistbackend] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-18T13:07:51.842+03:00 DEBUG 10332 --- [todolistbackend] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-18T13:07:51.884+03:00  WARN 10332 --- [todolistbackend] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-18T13:07:52.266+03:00  INFO 10332 --- [todolistbackend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-05-18T13:07:52.338+03:00  INFO 10332 --- [todolistbackend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-18T13:07:52.348+03:00  INFO 10332 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : Started TodolistbackendApplication in 4.295 seconds (process running for 5.502)
+2024-05-18T13:07:52.521+03:00  INFO 10332 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-18T13:07:52.522+03:00  INFO 10332 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-18T13:07:52.522+03:00 DEBUG 10332 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-05-18T13:07:52.522+03:00 DEBUG 10332 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-05-18T13:07:52.522+03:00 DEBUG 10332 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-05-18T13:07:52.523+03:00 DEBUG 10332 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5eb89000
+2024-05-18T13:07:52.523+03:00 DEBUG 10332 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@76a1cc1a
+2024-05-18T13:07:52.524+03:00 DEBUG 10332 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-18T13:07:52.524+03:00  INFO 10332 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-05-18T13:07:58.038+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui.html", parameters={}
+2024-05-18T13:07:58.049+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc#redirectToUi(HttpServletRequest)
+2024-05-18T13:07:58.081+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2024-05-18T13:07:58.081+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2024-05-18T13:07:58.082+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2024-05-18T13:07:58.087+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2024-05-18T13:07:58.089+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-18T13:07:58.091+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2024-05-18T13:07:58.104+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui.css", parameters={}
+2024-05-18T13:07:58.105+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-18T13:07:58.106+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2024-05-18T13:07:58.109+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-standalone-preset.js", parameters={}
+2024-05-18T13:07:58.109+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-bundle.js", parameters={}
+2024-05-18T13:07:58.109+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.css", parameters={}
+2024-05-18T13:07:58.110+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-05-18T13:07:58.110+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-18T13:07:58.110+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-18T13:07:58.110+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-18T13:07:58.110+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-18T13:07:58.112+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2024-05-18T13:07:58.112+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2024-05-18T13:07:58.112+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2024-05-18T13:07:58.123+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T13:07:58.377+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/favicon-32x32.png", parameters={}
+2024-05-18T13:07:58.378+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-18T13:07:58.379+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2024-05-18T13:07:58.459+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2024-05-18T13:07:58.460+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-05-18T13:07:58.462+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-05-18T13:07:58.463+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+2024-05-18T13:07:58.467+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T13:07:58.477+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2024-05-18T13:07:58.477+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-05-18T13:07:58.688+03:00  INFO 10332 --- [todolistbackend] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 198 ms
+2024-05-18T13:07:58.700+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-05-18T13:07:58.700+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-05-18T13:07:58.701+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T13:08:15.740+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/todos/create", parameters={}
+2024-05-18T13:08:15.741+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.ToDoController#createToDo(ToDo)
+2024-05-18T13:08:15.755+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ToDo(id=1, task=Deneme, completed=true)]
+2024-05-18T13:08:15.836+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-18T13:08:15.837+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [ToDo(id=1, task=Deneme, completed=true)]
+2024-05-18T13:08:15.838+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T13:10:16.994+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui.html", parameters={}
+2024-05-18T13:10:16.995+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc#redirectToUi(HttpServletRequest)
+2024-05-18T13:10:16.996+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2024-05-18T13:10:16.996+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2024-05-18T13:10:16.996+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2024-05-18T13:10:17.015+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-05-18T13:10:17.016+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-18T13:10:17.018+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T13:10:17.382+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2024-05-18T13:10:17.383+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-05-18T13:10:17.384+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-05-18T13:10:17.384+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+2024-05-18T13:10:17.384+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T13:10:17.400+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2024-05-18T13:10:17.401+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-05-18T13:10:17.402+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-05-18T13:10:17.403+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-05-18T13:10:17.404+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T13:10:36.662+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/todos/create", parameters={}
+2024-05-18T13:10:36.662+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.ToDoController#createToDo(ToDo)
+2024-05-18T13:10:36.662+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ToDo(id=4, task=Deneme, completed=false)]
+2024-05-18T13:10:36.668+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-18T13:10:36.668+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [ToDo(id=2, task=Deneme, completed=false)]
+2024-05-18T13:10:36.668+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T13:11:38.615+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/update/1", parameters={}
+2024-05-18T13:11:38.616+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.ToDoController#updateToDo(Long, ToDo)
+2024-05-18T13:11:38.617+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [ToDo(id=1, task=Ödevleri Bitir!, completed=false)]
+2024-05-18T13:11:38.638+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-18T13:11:38.638+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [ToDo(id=1, task=Ödevleri Bitir!, completed=false)]
+2024-05-18T13:11:38.639+03:00 DEBUG 10332 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T13:34:42.142+03:00  INFO 10332 --- [todolistbackend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-18T13:34:42.146+03:00  INFO 10332 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-18T13:34:42.148+03:00  INFO 10332 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-18T13:34:47.171+03:00  INFO 2116 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : Starting TodolistbackendApplication using Java 21 with PID 2116 (C:\Users\bkahr\OneDrive\Masaüstü\Projects\todolistbackend\target\classes started by bkahr in C:\Users\bkahr\OneDrive\Masaüstü\Projects\todolistbackend)
+2024-05-18T13:34:47.173+03:00  INFO 2116 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-05-18T13:34:47.948+03:00  INFO 2116 --- [todolistbackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-18T13:34:47.986+03:00  INFO 2116 --- [todolistbackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interface.
+2024-05-18T13:34:48.508+03:00  INFO 2116 --- [todolistbackend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-18T13:34:48.517+03:00  INFO 2116 --- [todolistbackend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-18T13:34:48.517+03:00  INFO 2116 --- [todolistbackend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-18T13:34:48.572+03:00  INFO 2116 --- [todolistbackend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-18T13:34:48.572+03:00  INFO 2116 --- [todolistbackend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1364 ms
+2024-05-18T13:34:48.700+03:00 DEBUG 2116 --- [todolistbackend] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-05-18T13:34:48.701+03:00 DEBUG 2116 --- [todolistbackend] [main] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2024-05-18T13:34:49.029+03:00  INFO 2116 --- [todolistbackend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-18T13:34:49.049+03:00  INFO 2116 --- [todolistbackend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-18T13:34:49.183+03:00  INFO 2116 --- [todolistbackend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6d695ec4
+2024-05-18T13:34:49.185+03:00  INFO 2116 --- [todolistbackend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-18T13:34:49.918+03:00  INFO 2116 --- [todolistbackend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-18T13:34:50.259+03:00  WARN 2116 --- [todolistbackend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-18T13:34:50.341+03:00 DEBUG 2116 --- [todolistbackend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2024-05-18T13:34:50.427+03:00 DEBUG 2116 --- [todolistbackend] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-05-18T13:34:50.458+03:00 DEBUG 2116 --- [todolistbackend] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-18T13:34:50.492+03:00 DEBUG 2116 --- [todolistbackend] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-18T13:34:50.521+03:00  WARN 2116 --- [todolistbackend] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-18T13:34:50.913+03:00  INFO 2116 --- [todolistbackend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-05-18T13:34:50.981+03:00  INFO 2116 --- [todolistbackend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-18T13:34:50.995+03:00  INFO 2116 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : Started TodolistbackendApplication in 4.157 seconds (process running for 5.043)
+2024-05-18T13:34:51.475+03:00  INFO 2116 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-18T13:34:51.476+03:00  INFO 2116 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-18T13:34:51.477+03:00 DEBUG 2116 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-05-18T13:34:51.477+03:00 DEBUG 2116 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-05-18T13:34:51.477+03:00 DEBUG 2116 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-05-18T13:34:51.480+03:00 DEBUG 2116 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2292e793
+2024-05-18T13:34:51.481+03:00 DEBUG 2116 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6f915016
+2024-05-18T13:34:51.481+03:00 DEBUG 2116 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-18T13:34:51.481+03:00  INFO 2116 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-05-18T13:37:47.093+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2024-05-18T13:37:47.101+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-18T13:37:47.113+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2024-05-18T13:37:47.127+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-05-18T13:37:47.128+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-18T13:37:47.145+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T13:37:47.387+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2024-05-18T13:37:47.390+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-05-18T13:37:47.406+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-05-18T13:37:47.407+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+2024-05-18T13:37:47.411+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T13:37:47.424+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2024-05-18T13:37:47.425+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-05-18T13:37:47.640+03:00  INFO 2116 --- [todolistbackend] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 201 ms
+2024-05-18T13:37:47.658+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-05-18T13:37:47.658+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-05-18T13:37:47.659+03:00 DEBUG 2116 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T13:44:06.330+03:00  INFO 2116 --- [todolistbackend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-18T13:44:06.334+03:00  INFO 2116 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-18T13:44:06.337+03:00  INFO 2116 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-18T13:46:09.795+03:00  INFO 17672 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : Starting TodolistbackendApplication using Java 21 with PID 17672 (C:\Users\bkahr\OneDrive\Masaüstü\Projects\todolistbackend\target\classes started by bkahr in C:\Users\bkahr\OneDrive\Masaüstü\Projects\todolistbackend)
+2024-05-18T13:46:09.797+03:00  INFO 17672 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-05-18T13:46:10.520+03:00  INFO 17672 --- [todolistbackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-18T13:46:10.558+03:00  INFO 17672 --- [todolistbackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interface.
+2024-05-18T13:46:11.066+03:00  INFO 17672 --- [todolistbackend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-18T13:46:11.075+03:00  INFO 17672 --- [todolistbackend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-18T13:46:11.075+03:00  INFO 17672 --- [todolistbackend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-18T13:46:11.135+03:00  INFO 17672 --- [todolistbackend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-18T13:46:11.136+03:00  INFO 17672 --- [todolistbackend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1306 ms
+2024-05-18T13:46:11.265+03:00 DEBUG 17672 --- [todolistbackend] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-05-18T13:46:11.266+03:00 DEBUG 17672 --- [todolistbackend] [main] o.springframework.web.filter.CorsFilter  : Filter 'corsFilter' configured for use
+2024-05-18T13:46:11.592+03:00  INFO 17672 --- [todolistbackend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-18T13:46:11.613+03:00  INFO 17672 --- [todolistbackend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-18T13:46:11.750+03:00  INFO 17672 --- [todolistbackend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5ca8bd01
+2024-05-18T13:46:11.751+03:00  INFO 17672 --- [todolistbackend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-18T13:46:12.493+03:00  INFO 17672 --- [todolistbackend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-18T13:46:12.833+03:00  WARN 17672 --- [todolistbackend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-18T13:46:12.917+03:00 DEBUG 17672 --- [todolistbackend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 14 mappings in 'requestMappingHandlerMapping'
+2024-05-18T13:46:13.003+03:00 DEBUG 17672 --- [todolistbackend] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-05-18T13:46:13.036+03:00 DEBUG 17672 --- [todolistbackend] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-18T13:46:13.068+03:00 DEBUG 17672 --- [todolistbackend] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-18T13:46:13.094+03:00  WARN 17672 --- [todolistbackend] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-18T13:46:13.493+03:00  INFO 17672 --- [todolistbackend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-05-18T13:46:13.559+03:00  INFO 17672 --- [todolistbackend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-18T13:46:13.569+03:00  INFO 17672 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : Started TodolistbackendApplication in 4.127 seconds (process running for 4.709)
+2024-05-18T13:46:13.737+03:00  INFO 17672 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-18T13:46:13.738+03:00  INFO 17672 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-18T13:46:13.738+03:00 DEBUG 17672 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-05-18T13:46:13.738+03:00 DEBUG 17672 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-05-18T13:46:13.738+03:00 DEBUG 17672 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-05-18T13:46:13.740+03:00 DEBUG 17672 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@73b63917
+2024-05-18T13:46:13.742+03:00 DEBUG 17672 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6cb2d5ea
+2024-05-18T13:46:13.744+03:00 DEBUG 17672 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-18T13:46:13.744+03:00  INFO 17672 --- [todolistbackend] [RMI TCP Connection(1)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2024-05-18T13:53:53.625+03:00 DEBUG 17672 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/todos/getall", parameters={}
+2024-05-18T13:53:53.631+03:00 DEBUG 17672 --- [todolistbackend] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.ToDoController#getAllToDos()
+2024-05-18T13:53:53.762+03:00 DEBUG 17672 --- [todolistbackend] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-18T13:53:53.765+03:00 DEBUG 17672 --- [todolistbackend] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[ToDo(id=2, task=Deneme, completed=false), ToDo(id=1, task=Ödevleri Bitir!, completed=false)]]
+2024-05-18T13:53:53.778+03:00 DEBUG 17672 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:16:59.990+03:00  INFO 17672 --- [todolistbackend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-18T14:16:59.994+03:00  INFO 17672 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-18T14:16:59.997+03:00  INFO 17672 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-18T14:28:41.890+03:00  INFO 6624 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : Starting TodolistbackendApplication using Java 21 with PID 6624 (C:\Users\bkahr\OneDrive\Masaüstü\Projects\todolistbackend\target\classes started by bkahr in C:\Users\bkahr\OneDrive\Masaüstü\Projects\todolistbackend)
+2024-05-18T14:28:41.891+03:00  INFO 6624 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-05-18T14:28:42.546+03:00  INFO 6624 --- [todolistbackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-18T14:28:42.577+03:00  INFO 6624 --- [todolistbackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-05-18T14:28:43.005+03:00  INFO 6624 --- [todolistbackend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-18T14:28:43.012+03:00  INFO 6624 --- [todolistbackend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-18T14:28:43.013+03:00  INFO 6624 --- [todolistbackend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-18T14:28:43.056+03:00  INFO 6624 --- [todolistbackend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-18T14:28:43.057+03:00  INFO 6624 --- [todolistbackend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1132 ms
+2024-05-18T14:28:43.164+03:00 DEBUG 6624 --- [todolistbackend] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-05-18T14:28:43.492+03:00  INFO 6624 --- [todolistbackend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-18T14:28:43.509+03:00  INFO 6624 --- [todolistbackend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-18T14:28:43.639+03:00  INFO 6624 --- [todolistbackend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@bea5941
+2024-05-18T14:28:43.641+03:00  INFO 6624 --- [todolistbackend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-18T14:28:44.289+03:00  INFO 6624 --- [todolistbackend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-18T14:28:44.598+03:00  WARN 6624 --- [todolistbackend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-18T14:28:44.679+03:00 DEBUG 6624 --- [todolistbackend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-05-18T14:28:44.763+03:00 DEBUG 6624 --- [todolistbackend] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-05-18T14:28:44.792+03:00 DEBUG 6624 --- [todolistbackend] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-18T14:28:44.821+03:00 DEBUG 6624 --- [todolistbackend] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-18T14:28:44.849+03:00  WARN 6624 --- [todolistbackend] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-18T14:28:45.235+03:00  INFO 6624 --- [todolistbackend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-05-18T14:28:45.298+03:00  INFO 6624 --- [todolistbackend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-18T14:28:45.308+03:00  INFO 6624 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : Started TodolistbackendApplication in 3.717 seconds (process running for 4.183)
+2024-05-18T14:28:45.854+03:00  INFO 6624 --- [todolistbackend] [RMI TCP Connection(2)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-18T14:28:45.855+03:00  INFO 6624 --- [todolistbackend] [RMI TCP Connection(2)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-18T14:28:45.855+03:00 DEBUG 6624 --- [todolistbackend] [RMI TCP Connection(2)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-05-18T14:28:45.855+03:00 DEBUG 6624 --- [todolistbackend] [RMI TCP Connection(2)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-05-18T14:28:45.855+03:00 DEBUG 6624 --- [todolistbackend] [RMI TCP Connection(2)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-05-18T14:28:45.857+03:00 DEBUG 6624 --- [todolistbackend] [RMI TCP Connection(2)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@75c0e6be
+2024-05-18T14:28:45.857+03:00 DEBUG 6624 --- [todolistbackend] [RMI TCP Connection(2)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@141874c8
+2024-05-18T14:28:45.857+03:00 DEBUG 6624 --- [todolistbackend] [RMI TCP Connection(2)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-18T14:28:45.858+03:00  INFO 6624 --- [todolistbackend] [RMI TCP Connection(2)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-05-18T14:28:49.513+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/index.html", parameters={}
+2024-05-18T14:28:49.518+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-18T14:28:49.528+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2024-05-18T14:28:49.543+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-05-18T14:28:49.544+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-18T14:28:49.557+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:28:49.784+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2024-05-18T14:28:49.786+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-05-18T14:28:49.799+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-05-18T14:28:49.801+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+2024-05-18T14:28:49.805+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:28:49.818+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2024-05-18T14:28:49.819+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-05-18T14:28:49.984+03:00  INFO 6624 --- [todolistbackend] [http-nio-8080-exec-2] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 153 ms
+2024-05-18T14:28:50.000+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-05-18T14:28:50.001+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-05-18T14:28:50.002+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:29:47.631+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/todos", parameters={}
+2024-05-18T14:29:47.633+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiCreate(Todo)
+2024-05-18T14:29:47.647+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=1, task=Deneme, done=false)]
+2024-05-18T14:29:47.732+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-18T14:29:47.732+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=1, task=Deneme, done=false)]
+2024-05-18T14:29:47.735+03:00 DEBUG 6624 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:37:36.966+03:00  INFO 6624 --- [todolistbackend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-18T14:37:36.969+03:00  INFO 6624 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-18T14:37:36.972+03:00  INFO 6624 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-18T14:37:39.709+03:00  INFO 17524 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : Starting TodolistbackendApplication using Java 21 with PID 17524 (C:\Users\bkahr\OneDrive\Masaüstü\Projects\todolistbackend\target\classes started by bkahr in C:\Users\bkahr\OneDrive\Masaüstü\Projects\todolistbackend)
+2024-05-18T14:37:39.711+03:00  INFO 17524 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-05-18T14:37:40.430+03:00  INFO 17524 --- [todolistbackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-18T14:37:40.467+03:00  INFO 17524 --- [todolistbackend] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2024-05-18T14:37:40.954+03:00  INFO 17524 --- [todolistbackend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-18T14:37:40.963+03:00  INFO 17524 --- [todolistbackend] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-18T14:37:40.963+03:00  INFO 17524 --- [todolistbackend] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-18T14:37:41.021+03:00  INFO 17524 --- [todolistbackend] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-18T14:37:41.021+03:00  INFO 17524 --- [todolistbackend] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1276 ms
+2024-05-18T14:37:41.138+03:00 DEBUG 17524 --- [todolistbackend] [main] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2024-05-18T14:37:41.472+03:00  INFO 17524 --- [todolistbackend] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-18T14:37:41.493+03:00  INFO 17524 --- [todolistbackend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-18T14:37:41.617+03:00  INFO 17524 --- [todolistbackend] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a2dbcfc
+2024-05-18T14:37:41.618+03:00  INFO 17524 --- [todolistbackend] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-18T14:37:42.351+03:00  INFO 17524 --- [todolistbackend] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-18T14:37:42.660+03:00  WARN 17524 --- [todolistbackend] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-18T14:37:42.757+03:00 DEBUG 17524 --- [todolistbackend] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 11 mappings in 'requestMappingHandlerMapping'
+2024-05-18T14:37:42.835+03:00 DEBUG 17524 --- [todolistbackend] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2024-05-18T14:37:42.867+03:00 DEBUG 17524 --- [todolistbackend] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-05-18T14:37:42.900+03:00 DEBUG 17524 --- [todolistbackend] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-05-18T14:37:42.926+03:00  WARN 17524 --- [todolistbackend] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-05-18T14:37:43.323+03:00  INFO 17524 --- [todolistbackend] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/actuator'
+2024-05-18T14:37:43.400+03:00  INFO 17524 --- [todolistbackend] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-05-18T14:37:43.411+03:00  INFO 17524 --- [todolistbackend] [main] c.b.t.TodolistbackendApplication         : Started TodolistbackendApplication in 4.03 seconds (process running for 4.568)
+2024-05-18T14:37:43.635+03:00  INFO 17524 --- [todolistbackend] [RMI TCP Connection(5)-192.168.56.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-18T14:37:43.636+03:00  INFO 17524 --- [todolistbackend] [RMI TCP Connection(5)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-18T14:37:43.636+03:00 DEBUG 17524 --- [todolistbackend] [RMI TCP Connection(5)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-05-18T14:37:43.636+03:00 DEBUG 17524 --- [todolistbackend] [RMI TCP Connection(5)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-05-18T14:37:43.637+03:00 DEBUG 17524 --- [todolistbackend] [RMI TCP Connection(5)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-05-18T14:37:43.639+03:00 DEBUG 17524 --- [todolistbackend] [RMI TCP Connection(5)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@c1bcea1
+2024-05-18T14:37:43.639+03:00 DEBUG 17524 --- [todolistbackend] [RMI TCP Connection(5)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@622c658d
+2024-05-18T14:37:43.639+03:00 DEBUG 17524 --- [todolistbackend] [RMI TCP Connection(5)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-18T14:37:43.640+03:00  INFO 17524 --- [todolistbackend] [RMI TCP Connection(5)-192.168.56.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-05-18T14:39:20.459+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:39:20.466+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:39:20.652+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:39:20.656+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=1, task=Deneme, done=false)]]
+2024-05-18T14:39:20.675+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:39:20.675+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:39:20.676+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:39:20.679+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:39:20.680+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=1, task=Deneme, done=false)]]
+2024-05-18T14:39:20.681+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:39:31.442+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:39:31.444+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:39:31.448+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:39:31.448+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=1, task=Deneme, done=false)]]
+2024-05-18T14:39:31.451+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:39:31.452+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:39:31.452+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:39:31.455+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:39:31.455+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=1, task=Deneme, done=false)]]
+2024-05-18T14:39:31.456+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:39:39.745+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/todos", parameters={}
+2024-05-18T14:39:39.746+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiCreate(Todo)
+2024-05-18T14:39:39.748+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:39:39.758+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/todos", parameters={}
+2024-05-18T14:39:39.759+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiCreate(Todo)
+2024-05-18T14:39:39.784+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme2, done=false)]
+2024-05-18T14:39:39.815+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:39:39.816+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=2, task=Deneme2, done=false)]
+2024-05-18T14:39:39.817+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:39:43.036+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/todos/1", parameters={}
+2024-05-18T14:39:43.036+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:39:43.037+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:39:43.040+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/1", parameters={}
+2024-05-18T14:39:43.040+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:39:43.042+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme, done=true)]
+2024-05-18T14:39:43.066+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:39:43.066+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=1, task=Deneme, done=true)]
+2024-05-18T14:39:43.067+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:39:44.304+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:39:44.305+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:39:44.310+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:39:44.310+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=2, task=Deneme2, done=false), Todo(id=1, task=Deneme, done=true)]]
+2024-05-18T14:39:44.311+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:39:45.953+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:39:45.953+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:39:45.956+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:39:45.956+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=2, task=Deneme2, done=false), Todo(id=1, task=Deneme, done=true)]]
+2024-05-18T14:39:45.957+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:39:47.069+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:39:47.070+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:39:47.074+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:39:47.074+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=2, task=Deneme2, done=false), Todo(id=1, task=Deneme, done=true)]]
+2024-05-18T14:39:47.075+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:39:48.869+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/1", parameters={}
+2024-05-18T14:39:48.869+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:39:48.870+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme, done=false)]
+2024-05-18T14:39:48.878+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:39:48.878+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=1, task=Deneme, done=false)]
+2024-05-18T14:39:48.878+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:41:08.582+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/todos", parameters={}
+2024-05-18T14:41:08.583+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiCreate(Todo)
+2024-05-18T14:41:08.583+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Ödevleri Bitir!!, done=false)]
+2024-05-18T14:41:08.586+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:41:08.586+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=3, task=Ödevleri Bitir!!, done=false)]
+2024-05-18T14:41:08.587+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:41:16.334+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/todos/2", parameters={}
+2024-05-18T14:41:16.335+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:41:16.336+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:41:16.338+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/2", parameters={}
+2024-05-18T14:41:16.339+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:41:16.340+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme2, done=true)]
+2024-05-18T14:41:16.344+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:41:16.344+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=2, task=Deneme2, done=true)]
+2024-05-18T14:41:16.345+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:41:18.153+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/2", parameters={}
+2024-05-18T14:41:18.153+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:41:18.155+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme2, done=false)]
+2024-05-18T14:41:18.163+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:41:18.163+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=2, task=Deneme2, done=false)]
+2024-05-18T14:41:18.164+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:41:21.313+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/2", parameters={}
+2024-05-18T14:41:21.314+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:41:21.315+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme2, done=true)]
+2024-05-18T14:41:21.322+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:41:21.322+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=2, task=Deneme2, done=true)]
+2024-05-18T14:41:21.322+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:41:22.417+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/2", parameters={}
+2024-05-18T14:41:22.417+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:41:22.418+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme2, done=false)]
+2024-05-18T14:41:22.425+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:41:22.425+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=2, task=Deneme2, done=false)]
+2024-05-18T14:41:22.426+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:41:23.297+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/2", parameters={}
+2024-05-18T14:41:23.298+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:41:23.299+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme2, done=true)]
+2024-05-18T14:41:23.303+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:41:23.303+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=2, task=Deneme2, done=true)]
+2024-05-18T14:41:23.304+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:41:24.136+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:41:24.137+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:41:24.140+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:41:24.140+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=1, task=Deneme, done=false), Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=2, task (truncated)...]
+2024-05-18T14:41:24.141+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:41:25.469+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/2", parameters={}
+2024-05-18T14:41:25.469+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:41:25.471+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme2, done=false)]
+2024-05-18T14:41:25.479+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:41:25.479+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=2, task=Deneme2, done=false)]
+2024-05-18T14:41:25.480+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:41:26.968+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:41:26.969+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:41:26.973+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:41:26.973+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=1, task=Deneme, done=false), Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=2, task (truncated)...]
+2024-05-18T14:41:26.974+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:48:12.486+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/todos", parameters={}
+2024-05-18T14:48:12.487+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiCreate(Todo)
+2024-05-18T14:48:12.489+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=TEST, done=false)]
+2024-05-18T14:48:12.493+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:48:12.493+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=4, task=TEST, done=false)]
+2024-05-18T14:48:12.494+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:48:15.828+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/todos/4", parameters={}
+2024-05-18T14:48:15.828+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:48:15.829+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:48:15.830+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/4", parameters={}
+2024-05-18T14:48:15.830+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:48:15.832+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=TEST, done=true)]
+2024-05-18T14:48:15.839+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:48:15.839+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=4, task=TEST, done=true)]
+2024-05-18T14:48:15.839+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:48:18.021+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/4", parameters={}
+2024-05-18T14:48:18.022+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:48:18.024+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=TEST, done=true)]
+2024-05-18T14:48:18.028+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:48:18.028+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=4, task=TEST, done=true)]
+2024-05-18T14:48:18.029+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:48:19.925+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:48:19.925+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:48:19.928+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:48:19.928+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=1, task=Deneme, done=false), Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=2, task (truncated)...]
+2024-05-18T14:48:19.928+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:48:20.755+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:48:20.755+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:48:20.758+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:48:20.758+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=1, task=Deneme, done=false), Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=2, task (truncated)...]
+2024-05-18T14:48:20.759+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:48:21.994+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:48:21.994+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:48:21.999+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:48:21.999+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=1, task=Deneme, done=false), Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=2, task (truncated)...]
+2024-05-18T14:48:22.000+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:48:52.393+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/4", parameters={}
+2024-05-18T14:48:52.393+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:48:52.394+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=TEST, done=false)]
+2024-05-18T14:48:52.402+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:48:52.402+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=4, task=TEST, done=false)]
+2024-05-18T14:48:52.403+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:19.301+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/todos/3", parameters={}
+2024-05-18T14:49:19.301+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:49:19.302+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:19.305+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/3", parameters={}
+2024-05-18T14:49:19.306+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:49:19.306+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Ödevleri Bitir!!, done=true)]
+2024-05-18T14:49:19.314+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:19.314+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=3, task=Ödevleri Bitir!!, done=true)]
+2024-05-18T14:49:19.314+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:21.671+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/4", parameters={}
+2024-05-18T14:49:21.671+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:49:21.672+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=TEST, done=true)]
+2024-05-18T14:49:21.676+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:21.676+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=4, task=TEST, done=true)]
+2024-05-18T14:49:21.677+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:23.145+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/2", parameters={}
+2024-05-18T14:49:23.146+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:49:23.147+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme2, done=true)]
+2024-05-18T14:49:23.156+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:23.156+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=2, task=Deneme2, done=true)]
+2024-05-18T14:49:23.157+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:24.651+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/1", parameters={}
+2024-05-18T14:49:24.651+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:49:24.653+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme, done=true)]
+2024-05-18T14:49:24.660+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:24.660+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=1, task=Deneme, done=true)]
+2024-05-18T14:49:24.660+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:26.054+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:49:26.056+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:49:26.059+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:26.059+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=true), Todo(id=4, task=TEST, done=true), Todo(id=2, task=Den (truncated)...]
+2024-05-18T14:49:26.059+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:27.933+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:49:27.934+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:49:27.939+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:27.939+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=true), Todo(id=4, task=TEST, done=true), Todo(id=2, task=Den (truncated)...]
+2024-05-18T14:49:27.940+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:29.059+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:49:29.060+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:49:29.065+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:29.065+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=true), Todo(id=4, task=TEST, done=true), Todo(id=2, task=Den (truncated)...]
+2024-05-18T14:49:29.066+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:30.717+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/3", parameters={}
+2024-05-18T14:49:30.717+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:49:30.719+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Ödevleri Bitir!!, done=false)]
+2024-05-18T14:49:30.727+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:30.727+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=3, task=Ödevleri Bitir!!, done=false)]
+2024-05-18T14:49:30.728+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:31.674+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/4", parameters={}
+2024-05-18T14:49:31.675+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:49:31.675+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=TEST, done=false)]
+2024-05-18T14:49:31.682+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:31.682+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=4, task=TEST, done=false)]
+2024-05-18T14:49:31.683+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:32.333+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/2", parameters={}
+2024-05-18T14:49:32.334+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:49:32.334+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme2, done=false)]
+2024-05-18T14:49:32.341+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:32.341+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=2, task=Deneme2, done=false)]
+2024-05-18T14:49:32.342+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:33.062+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/1", parameters={}
+2024-05-18T14:49:33.062+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:49:33.064+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme, done=false)]
+2024-05-18T14:49:33.068+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:33.068+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=1, task=Deneme, done=false)]
+2024-05-18T14:49:33.069+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:35.060+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/2", parameters={}
+2024-05-18T14:49:35.061+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:49:35.062+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme2, done=true)]
+2024-05-18T14:49:35.067+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:35.067+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=2, task=Deneme2, done=true)]
+2024-05-18T14:49:35.068+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:37.216+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:49:37.217+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:49:37.223+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:37.223+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=4, task=TEST, done=false), Todo(id=1, task=D (truncated)...]
+2024-05-18T14:49:37.224+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:49:37.963+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:49:37.963+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:49:37.967+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:49:37.967+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=4, task=TEST, done=false), Todo(id=1, task=D (truncated)...]
+2024-05-18T14:49:37.968+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:52:47.514+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:52:47.515+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:52:47.522+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:52:47.522+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=4, task=TEST, done=false), Todo(id=1, task=D (truncated)...]
+2024-05-18T14:52:47.523+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:52:47.525+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:52:47.526+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:52:47.529+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:52:47.529+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=4, task=TEST, done=false), Todo(id=1, task=D (truncated)...]
+2024-05-18T14:52:47.530+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:53:26.321+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:53:26.321+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:53:26.325+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:53:26.326+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=4, task=TEST, done=false), Todo(id=1, task=D (truncated)...]
+2024-05-18T14:53:26.326+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:54:37.044+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:54:37.045+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:54:37.049+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:54:37.049+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=4, task=TEST, done=false), Todo(id=1, task=D (truncated)...]
+2024-05-18T14:54:37.050+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:54:37.815+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:54:37.816+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:54:37.821+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:54:37.821+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=4, task=TEST, done=false), Todo(id=1, task=D (truncated)...]
+2024-05-18T14:54:37.822+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:54:39.108+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/todos", parameters={}
+2024-05-18T14:54:39.109+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiCreate(Todo)
+2024-05-18T14:54:39.110+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=, done=false)]
+2024-05-18T14:54:39.113+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:54:39.113+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=5, task=, done=false)]
+2024-05-18T14:54:39.114+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:54:40.915+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/todos/5", parameters={}
+2024-05-18T14:54:40.916+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:54:40.916+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:54:40.918+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/5", parameters={}
+2024-05-18T14:54:40.919+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:54:40.919+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=, done=true)]
+2024-05-18T14:54:40.922+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:54:40.922+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=5, task=, done=true)]
+2024-05-18T14:54:40.922+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:54:43.499+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:54:43.500+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:54:43.505+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:54:43.505+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=4, task=TEST, done=false), Todo(id=1, task=D (truncated)...]
+2024-05-18T14:54:43.506+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:55:03.111+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/2", parameters={}
+2024-05-18T14:55:03.111+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:55:03.113+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme2, done=false)]
+2024-05-18T14:55:03.116+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:55:03.116+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=2, task=Deneme2, done=false)]
+2024-05-18T14:55:03.117+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:55:04.665+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : PUT "/api/todos/2", parameters={}
+2024-05-18T14:55:04.665+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiUpdate(Long, Todo)
+2024-05-18T14:55:04.666+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [Todo(id=null, task=Deneme2, done=true)]
+2024-05-18T14:55:04.674+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:55:04.674+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=2, task=Deneme2, done=true)]
+2024-05-18T14:55:04.675+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:55:12.742+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui.html", parameters={}
+2024-05-18T14:55:12.743+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerWelcomeWebMvc#redirectToUi(HttpServletRequest)
+2024-05-18T14:55:12.763+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, */*;q=0.8, application/signed-exchange;v=b3;q=0.7] and supported [application/json, application/*+json]
+2024-05-18T14:55:12.764+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2024-05-18T14:55:12.764+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 302 FOUND
+2024-05-18T14:55:12.785+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-initializer.js", parameters={}
+2024-05-18T14:55:12.788+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+2024-05-18T14:55:12.799+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:55:13.127+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs/swagger-config", parameters={}
+2024-05-18T14:55:13.127+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+2024-05-18T14:55:13.129+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+2024-05-18T14:55:13.130+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+2024-05-18T14:55:13.131+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:55:13.142+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/v3/api-docs", parameters={}
+2024-05-18T14:55:13.142+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+2024-05-18T14:55:13.359+03:00  INFO 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 203 ms
+2024-05-18T14:55:13.374+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+2024-05-18T14:55:13.375+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+2024-05-18T14:55:13.375+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:55:25.963+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:55:25.964+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:55:25.968+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-18T14:55:25.968+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=4, task=TEST, done=false), Todo(id=1, task=D (truncated)...]
+2024-05-18T14:55:25.970+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:55:38.314+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : DELETE "/api/todos/5", parameters={}
+2024-05-18T14:55:38.315+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiDeleteById(Long)
+2024-05-18T14:55:38.333+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-18T14:55:38.333+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Todo(id=5, task=, done=true)]
+2024-05-18T14:55:38.334+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:55:42.747+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:55:42.748+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:55:42.752+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:55:42.752+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=4, task=TEST, done=false), Todo(id=1, task=D (truncated)...]
+2024-05-18T14:55:42.753+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:55:42.755+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/todos", parameters={}
+2024-05-18T14:55:42.757+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.burak.todolistbackend.controller.api.impl.TodoApiImpl#todoApiFindAll()
+2024-05-18T14:55:42.762+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json]
+2024-05-18T14:55:42.762+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[Todo(id=3, task=Ödevleri Bitir!!, done=false), Todo(id=4, task=TEST, done=false), Todo(id=1, task=D (truncated)...]
+2024-05-18T14:55:42.762+03:00 DEBUG 17524 --- [todolistbackend] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-05-18T14:56:00.200+03:00  INFO 17524 --- [todolistbackend] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-18T14:56:00.203+03:00  INFO 17524 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-18T14:56:00.206+03:00  INFO 17524 --- [todolistbackend] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
