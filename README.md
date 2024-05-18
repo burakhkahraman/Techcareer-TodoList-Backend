@@ -11,21 +11,21 @@
 ## Technology
 
 ### Backend
-* javase
-* jdbc crud native
-* spring core
-* spring mvc
-* spring rest
+* Javase
+* Jdbc CRUD Native
+* Spring Core
+* Spring MVC
+* Spring Rest
 
 ### Frontend
-- Html5
-- Css3
-- responsive design
-- Js
-- react
+- HTML5
+- CSS3
+- Responsive Design
+- JS
+- React
 
 ### Database
-- *MySql*  
+- *PostgreSQL*  
 
 ## Setting up Project
 
